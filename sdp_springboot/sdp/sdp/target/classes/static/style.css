@@ -1,0 +1,66 @@
+<style type="text/css">
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: 'Shrikhand', cursive;
+    }
+
+    .bidding-container {
+        text-align: center;
+        margin: 50px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #timer, #Winner, #currentbid {
+        display: inline-block;
+        padding: 5px 10px;
+        margin: 5px;
+    }
+
+    #timer {
+        color: red;
+        background-color: #c9c9c9;
+        font-weight: bold;
+    }
+
+    #Winner, #currentbid {
+        background-color: #c9c9c9;
+        font-weight: bold;
+    }
+
+    .bid-box {
+        background-color: #f5f5f5;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    button {
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+</style>
